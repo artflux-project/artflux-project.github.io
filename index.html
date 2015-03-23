@@ -16,6 +16,10 @@
 
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+	<!-- Firebase -->
+	<script src="https://cdn.firebase.com/js/client/2.2.3/firebase.js"></script>
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -114,10 +118,14 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
+                <h2>Sign up for updates</h2>
+                <p>Excited for Artflux? So are we.</p><p> Sign up here so we can notify you when Artflux is ready for release.</p>
+                <form id="email-form">
+                	<input type="text" name="email" class="btn btn-default btn-lg" placeholder="Your email">
+                	<input type="submit" name="go" class="btn btn-default btn-lg">
+                </form>
+
+
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
@@ -157,6 +165,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+    <script src="js/custom.js"></script>
 
 </body>
 
